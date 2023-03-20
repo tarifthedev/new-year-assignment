@@ -1,0 +1,237 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+}
+         /* header */
+
+.header{
+      background-image: url('images/banner/banner1.png');
+      position:center;
+      background-repeat: no-repeat;
+      width: 1960px;
+      height: 1000px;
+      background-size: cover;
+}
+
+.header-line{
+        font-size: 75px;
+        text-align: right;
+        padding-right: 300px;
+        padding-top: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-text{
+    text-align: right;
+    padding-right: 300px;
+    padding-top: 40px; 
+    color: rgba(116, 113, 113, 0.918);
+    font-size: larger;
+}
+
+.header-button{
+    margin-left: 75.4%;
+    margin-top: 40px;
+    border: none; 
+    border-radius: 5px;
+    background-color: rgb(255, 86, 80);
+    padding: 22px 30px;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.349);
+}
+
+/* my failure of the year */
+
+.fail-img{
+       padding-left: 210px;
+       padding-top: 200px;
+}
+
+.fail-div{
+           display: flex;
+}
+
+.fail-head{
+    margin: 0;
+        text-align: right;
+        font-size: 49px;
+        text-align: right;
+        padding-top: 370px;
+        padding-bottom: 0;
+        padding-left:200px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.fail-text{
+    text-align: left;
+    font-size: 19px;
+     margin-top: 520px;
+   margin-left:-320px;
+   color: rgba(0, 0, 0, 0.664);
+}
+
+.list{
+       list-style: none;
+       text-align: left;
+    font-size: 19px;
+     margin-top: 640px;
+   margin-left:-500px;
+   color: rgba(0, 0, 0, 0.664);       
+}
+
+
+  /* My Plans */
+
+.my-plans{
+          text-align: center;
+          font-size: 48px;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-top: 220px;
+          padding-bottom: 100px;
+}
+
+.mpd{
+    display:flex;
+    justify-content: space-around ;
+    gap: 100px;
+    text-align: center ;
+    position: absolute;
+    width: 1159px;
+    height: 899.96px;
+    left: 360px;
+    top: 2300.3px;
+}
+
+.text1{
+     font-size: 32px;
+     padding-bottom: 5px;
+}
+
+.text2{
+       font-size: 22px;
+       color: rgb(133, 130, 130);     
+}
+
+
+/* Awlays keep a positive mindset */
+
+.gradient-color{
+ position: absolute;
+ width: 1140px;
+ height: 300px;
+ left: 375px;
+ top: 2600.26px;
+ background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url('images/watch.png');
+  border-radius: 8px;
+}
+
+.text-gradient{
+         padding-left: 70px;
+         padding-top: 60px;
+         font-size: 45px;
+         color:white ;
+         font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-gradient{
+        margin-left: 70px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 6px;
+        font-size: 18px;
+        padding: 20px 48px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #F15B22;
+        background-color: aliceblue;
+}
+
+         /* footer */
+.footer{
+      background-color: rgba(0, 0, 0, 0.911);
+      width: auto;
+      height: 600px;
+      margin-top: 740px;
+}
+
+.footer-head{
+     color: aliceblue;
+}
+
+.header-foot{
+        padding-left: 260px;
+        padding-top: 120px;
+        font-size: 54px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-foot{
+        padding-left: 260px;
+        padding-top: 15px;
+        font-size: 18px;
+}
+
+.email-foot{
+    padding-left:260px;
+    padding-top: 28px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Phone-foot{
+    padding-left:260px;
+    padding-top: 29px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-foot{
+    display: flex;
+    padding-left:260px;
+    padding-top: 29px;
+    gap: 20px;
+}
+
+.Subscribe{
+    display: flex;
+    color: aliceblue;
+    margin-top: -329px;
+    padding-left: 1200px;
+    font-size: 32px;
+    
+}
+
+#email-foot{
+   margin-left: 1200px; 
+   margin-top: 20px;
+   border: solid 1px white;
+   padding-top: 22px;
+   padding-right: 90px;
+   padding-left: 15px;
+   padding-bottom: 22px;
+   font-size: 20px;
+   color: rgb(255, 255, 255);
+   border-radius: 10px;
+   background-color: rgba(0, 0, 0, 0);
+}
+
+
+.button-foot{
+    display: flex;
+    margin-left: 1200px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 37px;
+    font-size: 23px;
+    color: #F15B22;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* end of footer */
+
+
+
+
